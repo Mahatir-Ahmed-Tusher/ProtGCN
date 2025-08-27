@@ -512,7 +512,6 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 - **Md. Shakil Ahmed** - Architecture Design & Implementation
 
 **Acknowledgments:**
-- Original GCNdesign framework by Shintaro Minami
 - Protein Data Bank for structural data
 - PyTorch team for deep learning framework
 
