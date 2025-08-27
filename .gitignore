@@ -1,0 +1,43 @@
+# -----------------------------
+# Python build & distribution
+# -----------------------------
+build/
+dist/
+gcndesign.egg-info/
+
+# -----------------------------
+# Virtual environments
+# -----------------------------
+gcndesign_env/
+
+# -----------------------------
+# Python cache files
+# -----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# -----------------------------
+# Temporary/test files
+# -----------------------------
+test/
+*.log
+
+# -----------------------------
+# Large datasets
+# -----------------------------
+dataset/
+
+# -----------------------------
+# Documentation / guides
+# -----------------------------
+documents/
+RESEARCH.md
+PYPI_PUBLICATION_GUIDE.md
+VALIDATION_METRICS_GUIDE.md
+
+# -----------------------------
+# OS-specific files (optional)
+# -----------------------------
+.DS_Store
+Thumbs.db

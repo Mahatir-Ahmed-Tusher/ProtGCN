@@ -1,0 +1,45 @@
+# Include important documentation files
+include README.md
+include PYPI_Description.md
+include LICENSE
+include requirements.txt
+
+# Include all Python source files
+recursive-include gcndesign *.py
+
+# Include model parameter files
+include gcndesign/params/*.pkl
+
+# Include scripts
+recursive-include scripts *.py
+
+# Include web interface files
+include app.py
+include templates/*.html
+include static/*
+
+# Include validation and utility scripts
+include get_overall_validation_metrics.py
+include quick_validation.py
+include calculate_protein_design_metrics.py
+include calculate_t500_ts50_metrics.py
+include visualization.py
+
+# Include documentation
+include RESEARCH.md
+include USER_GUIDE.md
+include VALIDATION_METRICS_GUIDE.md
+include T500_TS50_METRICS_GUIDE.md
+include VISUALIZATION_FEATURES.md
+include PYPI_PUBLICATION_GUIDE.md
+
+# Include example files
+include *.pdb
+
+# Exclude unwanted files
+global-exclude *.pyc
+global-exclude __pycache__
+global-exclude .git*
+global-exclude *.egg-info
+global-exclude .pytest_cache
+exclude .gitignore

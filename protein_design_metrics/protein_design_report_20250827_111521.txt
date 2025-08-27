@@ -1,0 +1,51 @@
+
+GCNdesign Protein Design Metrics Report
+=======================================
+Generated: 2025-08-27 11:15:21
+
+DATASET SUMMARY:
+- Total proteins evaluated: 1
+- Total residues analyzed: 76
+- Total correct predictions: 39
+
+OVERALL PERFORMANCE (Weighted by residue count):
+- Per-residue Accuracy: 0.5132 (51.32%)
+- Weighted Accuracy: 0.5132 (51.32%)
+- Weighted Precision: 0.5157
+- Weighted Recall: 0.4987
+- Weighted F1-Score: 0.4636
+
+TOP-K ACCURACY:
+- Top-1 Accuracy: 0.5132 (51.32%)
+- Top-3 Accuracy: 0.7237 (72.37%)
+- Top-5 Accuracy: 0.8158 (81.58%)
+- Top-10 Accuracy: 0.9605 (96.05%)
+- Top-20 Accuracy: 1.0000 (100.00%)
+
+PROTEIN DESIGN SPECIFIC METRICS:
+- T500 Equivalent (Top-20): 1.0000 (100.00%)
+- TS50 Equivalent (Top-10): 0.9605 (96.05%)
+
+CONFIDENCE & DIVERSITY:
+- Average Confidence: 0.5307
+- Average Entropy: 1.4798
+
+PER-PROTEIN STATISTICS:
+- Min Accuracy: 0.5132 (51.32%)
+- Max Accuracy: 0.5132 (51.32%)
+- Std Accuracy: 0.0000 (0.00%)
+
+LITERATURE COMPARISON (Adjusted for 20 amino acids):
+- GCNdesign (3 layers): T500 ~53.49%, TS50 ~47.06%
+- GCNdesign (4 layers): T500 ~53.78%, TS50 ~47.42%
+- GCNdesign (5 layers): T500 ~53.64%, TS50 ~47.61%
+- GCNdesign (6 layers): T500 ~53.41%, TS50 ~47.61%
+- DenseCPD: T500 ~53.24%, TS50 ~46.74%
+- ProDCoNN: T500 ~52.82%, TS50 ~50.71%
+- SPROF: T500 ~42.20%, TS50 ~40.25%
+- SPIN2: T500 ~40.69%, TS50 ~39.16%
+
+GENERATED FILES:
+- protein_design_detailed_20250827_111521.csv - Detailed per-protein results
+- protein_design_overall_20250827_111521.pkl - Overall metrics data
+- protein_design_report_20250827_111521.txt - This report

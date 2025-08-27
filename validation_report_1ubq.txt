@@ -1,0 +1,32 @@
+
+GCNdesign Validation Report - 1UBQ
+=====================================================
+
+PERFORMANCE METRICS:
+• Overall Accuracy: 0.5132 (51.32%)
+• Precision: 0.5157
+• Recall: 0.4987
+• F1-Score: 0.4636
+• Matthews Correlation Coefficient: 0.4816
+
+TOP-K ACCURACY:
+• Top-1 (Standard): 0.5132 (51.32%)
+• Top-3: 0.7237 (72.37%)
+• Top-5: 0.8158 (81.58%)
+
+MODEL CONFIDENCE:
+• Average Prediction Confidence: 0.5307
+
+DATASET STATISTICS:
+• Total Residues: 76
+• Protein Sequence: M Q I F V K T L T G K T I T L E V E P S D T I E N V K A K I Q D K E G I P P D Q Q R L I F A G K Q L E D G R T L S D Y N I Q K E S T L H L V L R L R G G
+
+FILES GENERATED:
+• gcndesign_validation_1ubq.png - Comprehensive visualization
+• validation_results_1ubq.pkl - Raw results data
+• validation_report_1ubq.txt - This report
+
+INTERPRETATION:
+The model shows moderate performance with 51.3% accuracy.
+Top-3 accuracy of 72.4% indicates the model often includes the correct 
+amino acid among its top 3 predictions, which is valuable for protein design applications.
