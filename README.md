@@ -520,8 +520,8 @@ If you use ProtGCN in your research, please cite:
 ```bibtex
 @article{protgcn2025,
   title={ProtGCN: Superior Protein Sequence Design using Graph Convolutional Networks},
-  author={Tusher, Mahatir Ahmed and Saha, Anik and Ahmed, Md. Shakil},
-  journal={Bioinformatics},
+  author={Tusher, Mahatir Ahmed},
+  journal={yet to submit},
   year={2025},
   publisher={Yet to publish}
 }
