@@ -506,10 +506,8 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 
 ## 👥 Authors & Contributors
 
-**Core Development Team:**
+**Developed by:**
 - **Mahatir Ahmed Tusher** - Lead Developer & Research
-- **Anik Saha** - Algorithm Development & Validation
-- **Md. Shakil Ahmed** - Architecture Design & Implementation
 
 **Acknowledgments:**
 - Protein Data Bank for structural data
